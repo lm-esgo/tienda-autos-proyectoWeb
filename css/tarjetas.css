@@ -1,0 +1,13 @@
+.bmw_principal {
+    width: 600px;
+}
+.tarjetas {
+    display: flex;
+}
+.tar {
+    display: flex;
+    margin: 20px;
+    background-color: #1e9ad8;
+    width: 200px;
+    height: 400px;
+}
