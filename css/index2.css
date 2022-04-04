@@ -1,17 +1,44 @@
+.bg-header {
+    background-color: rgb(41, 154, 220);
+}
 .nav-link {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .logo {
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* padding: 0 40px; */
     line-height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-top: 5px; /* separa el carro */
+    margin-top: 5px; /* separa el circulo blanco */
+    width: 70px;
+    height: 70px;
+}
+.carro-logo {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+.title {
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-family: 'Hurricane', cursive;
+    font-size: 35px;
+    color: #ffffff;
+    /* text-transform: lowercase; */
 }
 .nav-menu {
     display: flex;
     margin-right: 40px;
     list-style: none; /*se quitan los puntitos*/
+    
 }
 .nav-menu-item {
     font-size: 18px;
@@ -25,17 +52,14 @@
     border-radius: 5px;
 }
 .nav-menu-link:hover {
-    background-color: aqua;
-    transition: 0.5s;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Nunito Sans', Times, serif;
+    font-size: 1.2em;
 }
-.section1 {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    border: brown solid;
-    border: 20px;
+.principal {
+    display: flex;
+    position: relative;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    height: 800px;
 }
